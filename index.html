@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro de Alunos</title>
+</head>
+<body>
+<h1>Cadastro</h1>
+<form action="adm.php" method="post">
+	<p>Nome:<input type="text" name="nome" maxlength="30"><img src="imgs/lupa.jpg" onClick="location.href='busca.php?nome='+nome.value;"></p>
+	<p>E-mail:<input type="text" name="email" maxlength="30"></p>
+	<p>Curso:<input type="text" name="curso" maxlength="30"></p>
+	<hr>
+	<p><input type="submit" name="btGravar" value="Gravar"><!--<a href="busca.php">Buscar</a>-->
+</form>
+</body>
+</html>
